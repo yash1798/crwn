@@ -1,0 +1,16 @@
+.cart-icon {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-icon .cart {
+  height: 1.7rem;
+}
+
+.cart-icon .cart-number {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  font-weight: bolder;
+}

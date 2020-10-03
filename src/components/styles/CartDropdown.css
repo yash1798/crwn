@@ -1,0 +1,25 @@
+.cart-dropdown {
+  height: 35rem;
+  position: absolute;
+  z-index: 2;
+  top: 13rem;
+  right: 5rem;
+  background-color: white;
+  width: 25rem;
+  border: 1.5px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.cart-dropdown .cart-items {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 80%;
+  width: 100%;
+}
+
+.cart-dropdown .go-to-checkout {
+  align-self: center;
+}

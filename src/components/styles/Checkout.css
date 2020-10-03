@@ -1,0 +1,24 @@
+.checkout-page {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout-page .checkout-header {
+  width: 75%;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout-page .checkout-header span {
+  font-size: 2rem;
+  width: 20%;
+  text-align: center;
+}
+
+.checkout-page .checkout-items {
+  width: 75%;
+}

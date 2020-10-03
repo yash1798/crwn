@@ -1,0 +1,37 @@
+.checkout-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+}
+
+.checkout-item .quantity {
+  width: 20%;
+  text-align: center;
+}
+
+.checkout-item img {
+  width: 20%;
+}
+
+.checkout-item .inc,
+.checkout-item .dec {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.checkout-item span {
+  font-size: 2rem;
+  width: 20%;
+  text-align: center;
+}
+
+.checkout-item .remove {
+  font-weight: bold;
+  padding-right: 1rem;
+  cursor: pointer;
+}

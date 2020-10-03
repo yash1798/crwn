@@ -1,0 +1,32 @@
+.button {
+  min-width: 10rem;
+  width: auto;
+  height: auto;
+  font-size: 1.3rem;
+  padding: 0.7rem 3rem;
+  background-color: black;
+  color: white;
+  font-family: "Open Sans Condensed";
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: 1px solid white;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.google-sign-in {
+  background-color: rgb(40, 132, 251);
+}
+
+.google-sign-in:hover {
+  background-color: rgb(0, 110, 255);
+  color: white;
+  border: 1px solid white;
+}

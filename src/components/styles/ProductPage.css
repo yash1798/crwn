@@ -1,0 +1,21 @@
+.product-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  margin: 5rem;
+}
+
+.product-page h1 {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+
+.product-page .product-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
